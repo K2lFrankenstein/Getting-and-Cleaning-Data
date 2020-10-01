@@ -1,14 +1,14 @@
 ### Script Name: 'run_analysis.R'
 
-###Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones    
+### Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones    
 
-##Identifiers
+## Identifiers
 - Subject Number - The ID number of the test subject (1-30)
 - Activities - The types of activities performed when the measurements were taken (1-6)
 
 
-##Features 
-###(all measurements were normalized from -1 to 1)
+## Features 
+### (all measurements were normalized from -1 to 1)
 - timeBodyAccelerator Mean-X
 - timeBodyAccelerator Mean-Y
 - timeBodyAccelerator Mean-Z
@@ -99,7 +99,7 @@
 - 6 Laying: laying down during the measurement
 
 
-##What the code in 'run_analysis.R' will do (in order) when the script is run:
+## What the code in 'run_analysis.R' will do (in order) when the script is run:
 - Load dplyr 
 - Load activity labels
 - Load and select features that include mean or standard deviation
@@ -124,7 +124,7 @@
 - View the second tidy data set: Finaldata
 
 
-##Final Data Sets
+## Final Data Sets
 - mydata: a dataset where all Features and Identifiers are variables and each row is a unique measurement for each subject and activity
 - Finaldata: a dataset where each unique Identifier is a variable and each row is the set of averages of each variable for each activity 
 and each subject
